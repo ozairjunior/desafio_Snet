@@ -8,7 +8,7 @@ Usando o yarn:
 A url base é: http://localhost:3000
 
 Estou usando o postgres para o banco de dados
-com o pgAdim executando você usa as seguintes urls:
+com o pgAdim executando, você ira usar as seguintes urls:
 
 Para registrar usuário:
 -Usar a url: http://localhost:3000/user/register, e informar nome, e-mail e uma senha no formato JSON.
