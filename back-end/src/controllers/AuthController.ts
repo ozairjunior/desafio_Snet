@@ -70,7 +70,7 @@ export class AuthController {
         }
     
         user.password = newPassword;
-        const errors = await validate(user);
+        const errors = await validate(user );
         if (errors.length > 0) {
           res.status(400).send({ response: `Wrong Formatting: ${errors}` });
           return;
