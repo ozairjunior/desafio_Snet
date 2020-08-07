@@ -14,6 +14,7 @@ module.exports = {
           "@middlewares": "./src/middlewares",
           "@migrations": "./src/migrations",
           "@routes": "./src/routes",
+          "@utils": "./src/utils",
         },
       },
     ],
